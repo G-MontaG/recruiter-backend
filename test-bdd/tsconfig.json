@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "sourceMap": false,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "alwaysStrict": true,
+    "outDir": "../compiled-test-bdd",
+    "lib": [
+      "es2016",
+      "es2017"
+    ],
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "../node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ],
+  "compileOnSave": true,
+  "buildOnSave": true
+}

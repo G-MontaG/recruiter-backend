@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "sourceMap": false,
+    "removeComments": false,
+    "skipLibCheck": false,
+    "alwaysStrict": true,
+    "outDir": "../compiled",
+    "lib": [
+      "es2016",
+      "es2017"
+    ],
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "noEmitHelpers": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "exclude": [
+    "../node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ],
+  "compileOnSave": true,
+  "buildOnSave": true
+}
